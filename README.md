@@ -2,11 +2,13 @@
 
 This is the code for Blog at https://www.startdataengineering.com/post/why-how-idempotency-data-pipeline
 
-## Docker
+## Setup
 
-We use a python 3.9 and pandas docker container to run our code.
+We use a python 3.9 and pandas docker container to run our code. Please have [Docker](https://docs.docker.com/get-docker/) installed.
 
 ```bash
+git clone https://github.com/josephmachado/idempotent-data-pipeline.git
+cd idempotent-data-pipeline
 docker pull amancevice/pandas
 docker run -it -v $(pwd):/var/lib/pandas amancevice/pandas sh
 pip install pyarrow
