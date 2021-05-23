@@ -5,7 +5,6 @@ import os
 import shutil
 
 import pandas as pd
-from typing import Any, List
 
 
 def run_parking_violations_data_pipeline(
