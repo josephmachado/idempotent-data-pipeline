@@ -1,6 +1,6 @@
 # Introduction
 
-This is the code for Blog at https://www.startdataengineering.com/post/why-how-idempotency-data-pipeline
+This is the code for blog at https://www.startdataengineering.com/post/why-how-idempotent-data-pipeline/
 
 ## Setup
 
@@ -36,7 +36,7 @@ ls -ltha data/out/20210519/ | grep 99 # data with registration state 99 not pres
 exit
 ```
 
-For more details please checkout the post here https://www.startdataengineering.com/post/why-how-idempotency-data-pipeline
+For more details please checkout the post here https://www.startdataengineering.com/post/why-how-idempotent-data-pipeline/
 
 ## References
 
